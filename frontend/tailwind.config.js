@@ -7,11 +7,19 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-      },
+      colors: {},
       fontFamily: {
         heading: ["Lora", "serif"],
         body: ["Inter", "sans-serif"],
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0.1" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        "fade-in": "fadeIn 2s ease-out forwards",
       },
     },
   },

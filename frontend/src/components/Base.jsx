@@ -31,12 +31,16 @@ export default function Base() {
                     </div>
                 </div>
                 <div className="h-12"></div>
-                <Experience />
+                <div className="opacity-0 animate-fade-in [animation-delay:0.5s]">
+                    <Experience />
+                </div>
                 <div className="h-12"></div>
-                <Project />
+                <div className="opacity-0 animate-fade-in [animation-delay:0.5s]">
+                    <Project />
+                </div>
                 <div className="h-24"></div>
                 <div className="text-center">
-                    <a href="https://github.com/JustinTran67/justin-tran-portfolio" target="_blank" className="text-xs text-gray-400 font-light">Version 1.0 / December 2025</a>
+                    <a href="https://github.com/JustinTran67/justin-tran-portfolio" target="_blank" className="text-xs text-gray-400 font-light">Version 1.7 / December 2025</a>
                 </div>
             </div>
         </div>
